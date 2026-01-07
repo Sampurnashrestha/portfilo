@@ -15,7 +15,7 @@ export const Details = {
 // eslint-disable-next-line react-refresh/only-export-components
 export const Links = {
   gitHub: "https://github.com/Sampurnashrestha",
-  linkedin: "www.linkedin.com/in/sampurna-shrestha-4238032aa",
+  linkedin: "https://www.linkedin.com/in/sampurna-shrestha-4238032aa/",
 };
 
 const Home = () => {

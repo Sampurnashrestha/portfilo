@@ -8,7 +8,8 @@ const Contact = () => {
     address: "Kathmandu,Nepal",
     status: "Available for Internship, Freelance",
     gitHub: "https://github.com/Sampurnashrestha",
-    linkedin: "www.linkedin.com/in/sampurna-shrestha-4238032aa",
+    linkedin: "https://www.linkedin.com/in/sampurna-shrestha-4238032aa/",
+    instagram: "https://www.instagram.com/sampurna.x.stha/",
     text : "text-[16px] text-gray-500 cursor-default ",
   };
   return (
@@ -21,13 +22,13 @@ const Contact = () => {
         <span className={contact.text}>{contact.address}</span>
 
         <div className="flex text-[20px] lg:text-[28px]  justify-center lg:justify-start gap-3 mt-5  mb-1 ">
-          <a href>
+          <a href={contact.linkedin}>
             <FaLinkedin className="text-gray-700 hover:scale-105 hover:text-blue-500 transition" />
           </a>
-          <a>
+          <a href={contact.gitHub}>
             <FaGithub className="text-gray-700 hover:scale-105 hover:text-blue-500 transition" />
           </a>
-          <a href>
+          <a href={contact.instagram}>
             <FaInstagram className="text-gray-700 hover:scale-105 hover:text-blue-500 transition" />
           </a>
         </div>
