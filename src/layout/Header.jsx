@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const Active = {
-  link: "relative px-4 py-2 transition-all duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full cursor-pointer",
+  link: " relative px-4 py-2 transition-all duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:text-blue-600 hover:after:w-full cursor-pointer",
 };
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <>
-      <div className=" h-[65px] sticky top-0">
+      <div className=" h-[65px] bg-white fixed top-0 left-0 w-full z-50 ">
         <nav className="flex flex-row gap-16 pt-6 justify-center items-center text-[19px] font-semibold  ">
           {links.map((link, index) => (
             <motion.div
@@ -32,7 +32,7 @@ const Header = () => {
                 smooth={true}
                 duration={300}
                 offset={-65}
-                spy={true}
+                // spy={true}
                 activeClass="text-blue-500 "
               >
                 {link.name}

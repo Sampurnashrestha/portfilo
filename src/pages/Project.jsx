@@ -5,7 +5,7 @@ import { SiMysql, SiTailwindcss } from "react-icons/si";
 import LibraryImg from "../assets/project/Library.png";
 import EventImg from "../assets/project/event.png";
 import HostelImg from "../assets/project/hostel.png";
-import ScrollSection from "../coponents/ScrollSection";
+
 const projectWork = [
   {
     id: 1,
@@ -51,13 +51,13 @@ const Project = () => {
     <>
       <div className="min-h-screen min-w-full flex flex-col  pl-10">
         <div className=" text-[35px] lg:text-[65px] font-bold leading-[85px] mt-20  ">
-          <ScrollSection>
+          
           <h2 className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent pb-3 pl-10">
             Project
           </h2>
-          </ScrollSection>
+          
         </div>
-        <ScrollSection>
+        
         <div className="flex flex-wrap  ">
           
           {projectWork.map((project) => (
@@ -70,7 +70,7 @@ const Project = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover sticky"
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-gray-400 text-sm">
@@ -117,7 +117,7 @@ const Project = () => {
           ))}
           
         </div>
-        </ScrollSection>
+       
       </div>
     </>
   );

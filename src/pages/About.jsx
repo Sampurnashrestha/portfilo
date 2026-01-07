@@ -1,8 +1,8 @@
 import Img from "../assets/about.jpeg";
-import ScrollSection from "../coponents/ScrollSection";
+
 const About = () => {
   return (
-     <ScrollSection>
+     
     <div className="min-h-screen min-w-full flex flex-col-reverse lg:flex-row gap-9 pt-[130px] px-[25px] lg:px-[40px] bg-gradient-to-br from-blue-90 to-purple-90">
     
       <div className="pl-53   ">
@@ -29,7 +29,7 @@ const About = () => {
       </div>
       
     </div>
-    </ScrollSection>
+    
   );
 };
 
