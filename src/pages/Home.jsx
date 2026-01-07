@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
+import Contact from "./Contact";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const Details = {
@@ -88,6 +89,7 @@ const Home = () => {
           className="h-[330px] lg:h-[530px] max-w-[430px] rounded-[45px]  "
         />
       </motion.div>
+      
     </div>
   );
 };
