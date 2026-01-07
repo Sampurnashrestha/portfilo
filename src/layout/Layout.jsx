@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Header from "./Header";
+import Footer from "./Footer";
 import Project from "../pages/Project";
 
 const Layout = () => {
@@ -26,6 +27,7 @@ const Layout = () => {
         <section name="contact">
           <Contact />
         </section>
+          <Footer />
       </BrowserRouter>
     </div>
   );

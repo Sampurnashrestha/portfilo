@@ -19,13 +19,13 @@ export const Links = {
 };
 
 const Home = () => {
-  
+
   return (
-    <div className="min-h-screen min-w-full flex flex-col-reverse lg:flex-row mt-15 px-[25px] lg:px-[30px] bg-gradient-to-br from-blue-90 to-purple-90">
+    <div className="min-h-[500px] lg:min-h-[900px] min-w-full flex flex-col-reverse lg:flex-row mt-15 px-[25px] lg:px-[30px] bg-gradient-to-br from-blue-90 to-purple-90">
       <div className="flex-1 mt-10 lg:mt-35 pl-5 lg:pl-50 text-center lg:text-left">
         <motion.div
-          initial={{ opacity: 0, x: 0 }}
-          animate={{ opacity: 1, x: 30 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 0.4, ease: "easeOut" }}
         >
           <h1 className="text-[55px] lg:text-[85px] font-extrabold leading-[85px]">
@@ -53,11 +53,11 @@ const Home = () => {
           </p>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: 30, y: 0 }}
-          animate={{ opacity: 1, x: 30, y: 2 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 1, ease: "easeOut" }}
         >
-          <div className="mt-4 flex flex-col lg:flex-row gap-[20px]">
+          <div className="mt-4 flex flex-col lg:flex-row gap-[10px]">
             <a
               href="#project"
               className="bg-gradient-to-r from-blue-500 to-purple-500  px-6 py-3 rounded-xl text-white backdrop-blur-lg hover:scale-110 transition-all  duration-300"
@@ -89,7 +89,7 @@ const Home = () => {
           className="h-[330px] lg:h-[530px] max-w-[430px] rounded-[45px]  "
         />
       </motion.div>
-      
+
     </div>
   );
 };
