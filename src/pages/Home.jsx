@@ -21,8 +21,8 @@ export const Links = {
 const Home = () => {
 
   return (
-    <div className="min-h-[500px] lg:min-h-[900px] min-w-full flex flex-col-reverse lg:flex-row mt-15 px-[25px] lg:px-[30px] bg-gradient-to-br from-blue-90 to-purple-90">
-      <div className="flex-1 mt-10 lg:mt-35 pl-5 lg:pl-50 text-center lg:text-left">
+    <div className="min-h-[500px] lg:min-h-[900px] min-w-full flex flex-col-reverse lg:flex-row mt-15 px-[15px] lg:px-[30px] bg-gradient-to-br from-blue-90 to-purple-90">
+      <div className="flex-1 mt-10 lg:mt-35  lg:pl-50 text-center lg:text-left">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
