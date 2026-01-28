@@ -25,7 +25,7 @@ const Home = () => {
       <div className="flex-1 mt-10 lg:mt-35  lg:pl-50 text-center lg:text-left">
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 0.4, ease: "easeOut" }}
         >
           <h1 className="text-[55px] lg:text-[85px] font-extrabold leading-[85px]">
@@ -54,7 +54,7 @@ const Home = () => {
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
           transition={{ duration: 1.5, delay: 1, ease: "easeOut" }}
         >
           <div className="mt-4 flex flex-col lg:flex-row gap-[10px]">
@@ -79,7 +79,7 @@ const Home = () => {
 
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
+        whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.4, ease: "easeOut" }}
         className="mt-[17px] lg:mt-[70px]  flex justify-center   lg:pr-40 hover:scale-105 transition duration-300 "
       >

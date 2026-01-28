@@ -15,7 +15,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-[350px] w-full flex flex-col items-center pt-20 gap-6 px-5 sm:px-10 lg:px-20 bg-gradient-to-br from-blue-90 to-purple-90">
-      <h2 className="text-4xl sm:text-5xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
+      <h2 className="text-4xl sm:text-5xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-3">
         Contact
       </h2>
 

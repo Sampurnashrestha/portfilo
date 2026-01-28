@@ -41,8 +41,6 @@ const Header = () => {
                 smooth={true}
                 duration={400}
                 offset={-80}
-                spy={true}
-                activeClass="text-blue-600 after:w-full"
               >
                 {link.name}
               </Link>
