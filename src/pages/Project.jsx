@@ -4,7 +4,8 @@ import { FaHtml5, FaCss3Alt, FaPhp, FaReact } from "react-icons/fa";
 import { SiMysql, SiTailwindcss } from "react-icons/si";
 import LibraryImg from "../assets/project/Library.png";
 import EventImg from "../assets/project/event.png";
-import HostelImg from "../assets/project/hostel.png";
+import CoffeeImg from "../assets/project/coffee.webp"
+
 
 const projectWork = [
   {
@@ -27,11 +28,12 @@ const projectWork = [
   },
   {
     id: 3,
-    title: "Hostel Management System",
+    title: "Coffee Shop",
     tech: ["React js", "Tailwind css"],
-    description: "A web-based system for managing student and records.",
-    image: HostelImg,
-    git: "https://github.com/Sampurnashrestha/Hostel_management_system.git",
+    description: "I create a warm and welcoming space where great coffee meets great design.",
+    image: CoffeeImg,
+    git: "https://github.com/Sampurnashrestha/ecommerce",
+    live: "http://ecommerce-nine-silk.vercel.app/"
   },
 ];
 
